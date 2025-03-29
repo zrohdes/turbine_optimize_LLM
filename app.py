@@ -161,7 +161,7 @@ Format the response as JSON with the following structure:
 
     try:
         # Generate content using Gemini Pro
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-1.5-flash')
         response = model.generate_content(prompt)
 
         # Parse JSON response
